@@ -4,7 +4,7 @@
             <h1 class="my-4">Login Page</h1>
             <v-form>
                 <v-text-field label="Email" outlined prepend-inner-icon="mdi-email"></v-text-field>
-                <v-text-field label="Password" outlined prepend-inner-icon="mdi-lock"></v-text-field>
+                <v-text-field label="Password" outlined type="password" prepend-inner-icon="mdi-lock"></v-text-field>
                 <v-btn color="primary" block>Login</v-btn>
             </v-form>
         </v-card>
